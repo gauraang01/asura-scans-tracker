@@ -12,7 +12,7 @@ load_dotenv()
 
 # --- CONFIGURATION ---
 DATA_FILE = "comic_data.json"
-CHECK_INTERVAL_SECONDS = 1800  # Check every 30 minutes (1800 seconds)
+CHECK_INTERVAL_SECONDS = 1800 * 2 * 6 # Check every 30 minutes (1800 seconds)
 
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
